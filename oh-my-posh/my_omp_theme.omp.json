@@ -17,7 +17,7 @@
           "powerline_symbol": "\ue0b0",
           "properties": {
             "home_icon": "~",
-            "style": "mixed"
+            "style": "letter"
           },
           "style": "powerline",
           "template": " \uf07c {{ .Path }} ",
