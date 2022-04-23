@@ -10,6 +10,8 @@ set shiftwidth=4
 set termguicolors
 " Highlight the text line of the cursor.
 set cursorline
+" Use the system clipboard.
+set clipboard=unnamedplus
 
 call plug#begin(stdpath('config') . '/plugged')
 Plug 'dracula/vim', {'as': 'dracula'}
