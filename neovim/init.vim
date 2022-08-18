@@ -12,6 +12,8 @@ set termguicolors
 set cursorline
 " Use the system clipboard.
 set clipboard=unnamedplus
+" Set the title of the window/tab.
+set title
 
 call plug#begin(stdpath('config') . '/plugged')
 Plug 'dracula/vim', {'as': 'dracula'}
