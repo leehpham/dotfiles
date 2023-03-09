@@ -10,9 +10,9 @@ opt.number = true
 -- In INSERT mode: use the appropriate number of spaces to insert a <TAB>.
 opt.expandtab = true
 -- Distance between 2 tab stops.
-opt.tabstop = 2
+opt.tabstop = 4 
 -- Number of spaces to use for each step of (auto)indent.
-opt.shiftwidth = 2
+opt.shiftwidth = 4 
 -- autoindent is enabled by default so we don't really need to set it.
 -- opt.autoindent = true
 
