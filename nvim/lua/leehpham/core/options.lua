@@ -56,8 +56,10 @@ opt.splitbelow = true
 -- Recognize "-" as part of a word. 
 -- opt.iskeyword:append("-")
 
--- My old settings
 -- Set the title of the window/tab.
 opt.title = true
 
+-- Spell checking
+opt.spell = true
+opt.spelllang = "en_us"
 
