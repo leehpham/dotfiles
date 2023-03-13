@@ -60,6 +60,6 @@ opt.splitbelow = true
 opt.title = true
 
 -- Spell checking
-opt.spell = true
-opt.spelllang = "en_us"
+-- opt.spell = true
+-- opt.spelllang = "en_us"
 
