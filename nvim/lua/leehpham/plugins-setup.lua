@@ -32,7 +32,7 @@ return packer.startup(function(use)
   -- lua functions that many plugins use
   use("nvim-lua/plenary.nvim")
 
-  use {'arcticicestudio/nord-vim', as = 'nord'}
+  use {'morhetz/gruvbox' }
 
   -- Markdown syntax highlighting
   use {'preservim/vim-markdown'}

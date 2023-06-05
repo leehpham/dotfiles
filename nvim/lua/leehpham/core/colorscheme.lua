@@ -1,5 +1,8 @@
-local status, _ = pcall(vim.cmd, "colorscheme nord")
+vim.cmd("let g:gruvbox_contrast_dark = 'hard'")
+
+local status, _ = pcall(vim.cmd, "colorscheme gruvbox")
 if not status then
   print("Colorscheme not found!")
   return
 end
+
