@@ -9,3 +9,6 @@
 	defaultBranch = main
 [pull]
 	rebase = false
+
+[includeIf "gitdir:~/hoang/enouvo/"]
+  path = ~/.gitconfig-enouvo
