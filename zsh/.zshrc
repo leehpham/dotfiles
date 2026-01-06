@@ -131,3 +131,8 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+# ByteRover CLI testing
+brv-dev() {
+  local dir="$HOME/hoang/byterover/github/byterover-cli"
+  npx --prefix="$dir" tsx --tsconfig "$dir/tsconfig.json" "$dir/bin/dev.js" "$@"
+}
