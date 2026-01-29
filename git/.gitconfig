@@ -12,3 +12,5 @@
 
 [includeIf "gitdir:~/hoang/enouvo/"]
   path = ~/.gitconfig-enouvo
+[url "ssh://git@github-personal/"]
+	insteadOf = ssh://git@github.com/
