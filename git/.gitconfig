@@ -1,8 +1,6 @@
 [user]
 	name = Hoang Pham
 	email = lehoangpham1092@gmail.com
-[core]
-	excludesfile = /Users/hoangpham/.gitignore_global
 [commit]
 	template = /Users/hoangpham/.stCommitMsg
 [init]
